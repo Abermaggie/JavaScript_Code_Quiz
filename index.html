@@ -11,28 +11,31 @@
    <div class="outer-container">
 
     <div class="top-bar">
-        <button>View Highscores</button>
-        <p>Time: 00:00</p>
+        <button id="viewScores">View Highscores</button>
+        <p id="counter">Time: 00:00</p>
         <div class="inner-container">
             <header class="quizIntro">
-                <h1>Welcome to the Quiz</h1>
-                <p>To get started with the quiz, start the quiz!</p>
-                <button>StartQuiz!</button>
+                <h1>Coding Quiz Challenge</h1>
+                <p class="pintro"><pre>
+                    Try to answer the following code related questions within the time 
+                    limit.  Keep in mind that incorrect answers will penalize your score/time 
+                    by ten seconds!</pre></p>
+                <button id="start">StartQuiz!</button>
 
             </header>
             <main>
                <section class="question-screen">
                 <h2>question here</h2>
                 <ol>
-                    <li><button>Answer 1</button></li>
-                    <li><button>Answer 2</button></li>
-                    <li><button>Answer 3</button></li>
-                    <li><button>Answer 4</button></li>
+                    <li><button id="Answer1">Answer 1</button></li>
+                    <li><button id="Answer2">Answer 2</button></li>
+                    <li><button id="Answer3">Answer 3</button></li>
+                    <li><button id="Answer4">Answer 4</button></li>
                 </ol>
                </section> 
                <section class="quiz-finish-screen">
                 <h2> Quiz Finished!</h2>
-                <p>Your Score: 00</p>
+                <p id="finalScore">Your Score: 00</p>
                 <div>
 
                 <label for="">Enter intitials</label>
@@ -55,6 +58,7 @@
 
     </div>
    </div>
+   <script src="./assets/js/script.js"></script>
     
 </body>
 </html>

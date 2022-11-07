@@ -34,16 +34,22 @@ button {
     flex-direction: column;
     justify-content: center;
 }
-.top-bar p {
+#counter {
     float:right;
+    margin-right: 10%;
+}
+
+#viewScores {
+    float:left;
+    margin-left:10%;
 }
 h1, h2 {
     color:yellow;
     text-align: center;
 }
 .quizIntro, main {
-    display: none;
-    margin-top: 30vh;
+    /* display: none; */
+    margin-top: 20vh;
     margin-left: 10%;
     margin-right: 10%;
     background-color: #3b3b3b;
@@ -61,14 +67,11 @@ main {
     display:block;
 }
 .question-screen {
-    display: none;
+    /* display: none; */
 }
 .quiz-finish-screen {
-    display:none;
+    /* display:none; */
 }
 .highscores-screen {
     display:block;
-}
-.highscores-screen ol {
-    overflow: scroll;
 }
